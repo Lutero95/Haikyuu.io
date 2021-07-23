@@ -1,0 +1,65 @@
+:root {
+    --black: #0F121A;
+    --red: #831d1c;
+    --white: #ECF0F1;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 93.75%;
+}
+
+body {
+    background: var(--black);
+    color: var(--white);
+    font-family: 'Inter', sans-serif;
+}
+
+button, textarea, ::placeholder, header, ul, li {
+    font-family: 'Inter', sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+a:hover {
+    color: var(--red);
+}
+
+a:active {
+    color: var(--red);
+}
+
+footer {
+    text-align: center;
+    padding: 4rem 0 2rem;
+    color: var(--white);
+    opacity: 0.6;
+}
+
+@media (min-width: 800px) {
+    html {
+        font-size: 87.5%;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 81.25%;
+    }
+}

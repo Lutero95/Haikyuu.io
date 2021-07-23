@@ -1,0 +1,47 @@
+main {
+    padding-top: 5rem;
+    max-width: 80%;
+    margin: 2.5rem auto;
+    font-size: 1.2rem;
+}
+
+h2 {
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid var(--red);
+}
+
+textarea {
+    width: 50%;
+    padding: 1rem;
+    background-color: var(--black);
+    border: 1px solid var(--red);
+    color: var(--white);
+    outline: none;
+    margin-bottom: 2rem;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    background: var(--red);
+    color: var(--white);
+    border: none;
+    width: 100px;
+    height: 40px;
+    left: 85px;
+    top: 236px;
+    outline: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+@media (max-width: 540px) {
+    textarea{
+        width: 100%;
+    }
+}

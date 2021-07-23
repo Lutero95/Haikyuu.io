@@ -1,0 +1,50 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem 4rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+header .title {
+    font-size: 1.5rem;
+    color: var(--red);
+    display: flex;
+    align-items: center;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+header li {
+    margin-left: 2rem;
+}
+
+header li:last-child {
+    margin-right: 2rem;
+}
+
+.current {
+    color: var(--red);
+}
+
+@media (max-width: 540px) {
+    html {
+        font-size: 75%;
+    }
+    header {
+        flex-direction: column;
+    }
+    header ul {
+        margin-top: 1rem;
+    }
+    header li {
+        white-space: nowrap;
+    }
+}
