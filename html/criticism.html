@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="../css/global.css">
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/criticism.css">
-    <title>Critícas | Haikyuu</title>
+    <script src="../js/form_validator.js"></script>
+    <title>Críticas | Haikyuu</title>
 </head>
 
 <body>
@@ -32,10 +33,10 @@
 
     <main>
         <h2>Deixe aqui sua crítica sobre o anime Haikyuu</h2>
-        <form action="">
-            <textarea id="message" rows="8" placeholder="Coloque aqui sua crítica..."></textarea>
+        <form>
+            <textarea id="criticism" rows="8" placeholder="Coloque aqui sua crítica..."></textarea>
             <br>
-            <button>Enviar</button>
+            <button onclick="formValidator();">Enviar</button>
         </form>
     </main>
 
